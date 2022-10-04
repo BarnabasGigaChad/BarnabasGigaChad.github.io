@@ -1,5 +1,6 @@
 body{
-    background-image: url("lol.jpg")
+    background-image: url("lol.jpg");
+height:100vh;
 background-size: cover;
 background-position: center;
 }
