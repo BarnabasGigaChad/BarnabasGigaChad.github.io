@@ -4,6 +4,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 *{
@@ -15,7 +16,25 @@ body{
 }
     
 .fejlec {
-    width: 100%;
+    /* display: block; */
+    float: right;
+    width: 40%;
+    margin-top: 3%;
     text-align: right;
-    
+    text-align: right;
+    color: white;
+    display: inline-block;
 }
+.fejlec a{
+    margin-right: 15px;
+}
+
+.fejlec>:hover {
+    text-decoration: underline;
+}
+
+.Logo {
+    width: 18%;
+    float: left;
+}
+
