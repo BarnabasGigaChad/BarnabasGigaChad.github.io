@@ -37,3 +37,23 @@ body{
     float: left;
 }
 
+h1 {
+    color: white;
+    text-shadow: 1.5px 1px 1px grey;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.text {
+    color: white;
+    text-shadow: 1.5px 1px 1px grey;
+    text-align: center;
+    padding-top: 2%;
+}
+
+h2 {
+    color: white;
+    text-shadow: 1.5px 1px 1px grey;
+    text-align: center;
+    padding-top: 4%;
+}
