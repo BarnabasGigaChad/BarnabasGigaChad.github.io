@@ -1,5 +1,5 @@
 body{
-    background-image: url("contactbg.png");
+    background-image: url("Tricks.png");
     height:100vh; 
     background-size: cover;
     background-position: center;
@@ -25,6 +25,11 @@ body{
     font-weight: bold;
     text-shadow: 1.5px 1px 1px grey;
 }
+
+a {
+    color: black;
+}
+
 .fejlec a{
     margin-right: 15px;
 }
@@ -33,7 +38,7 @@ body{
     text-decoration: underline;
 }
 
-.Logo {
+#Logo {
     width: 18%;
     float: left;
 }

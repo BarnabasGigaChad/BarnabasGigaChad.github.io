@@ -24,15 +24,16 @@ body{
     display: inline-block;
     text-shadow: 1.5px 1px 1px grey;
 }
-.fejlec a{
+a{
     margin-right: 15px;
+    color: white;
 }
 
 .fejlec>:hover {
     text-decoration: underline;
 }
 
-.Logo {
+#Logo {
     width: 18%;
     float: left;
 }

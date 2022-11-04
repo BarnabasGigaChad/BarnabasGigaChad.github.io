@@ -14,7 +14,10 @@ body{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
-    
+a{
+    color: black;
+}
+
 .fejlec {
     float: right;
     width: 40%;
@@ -33,8 +36,35 @@ body{
     text-decoration: underline;
 }
 
-.Logo {
+#Logo {
     width: 18%;
     float: left;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 5px solid black;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+    background-color: rgba(155, 146, 146, 0.1);
+}
+
+.table {
+    margin-top: 150px;
+    float: left;
+    height: 60%;
+    width: 500px;
+    left: 85px;
+    position: relative;
+}
+
+th {
+    font-style: italic;
+}
+
+.characters {
+    border-top: 100px;
+    color: black;
 }
 
