@@ -16,7 +16,6 @@ body{
 }
 a{
     color: black;
-    font-weight: bold;
 }
 
 .fejlec {
@@ -28,6 +27,7 @@ a{
     display: inline-block;
     font-weight: bold;
     text-shadow: 1.5px 1px 1px grey;
+    font-weight: bold;
 }
 .fejlec a{
     margin-right: 15px;
@@ -63,13 +63,17 @@ th {
     font-style: italic;
 }
 
+td {
+    font-weight: normal;
+}
+
 .characters {
     border-top: 100px;
     color: black;
 }
 
 .jellemzes{
-    height: 500px;
+    height: 800px;
     width: auto;
     position: absolute;
     top: 700px;
@@ -77,9 +81,19 @@ th {
     border: 2px solid black;
     background-color: rgba(255, 255, 255, 0.3);
     margin-left: 125px;   
+    margin-right: 120px;
+
 }
 
 li {
     list-style-type: circle;
     margin-left: 40px;
+}
+
+hr {
+    border: 0.5px solid black;
+}
+
+.jellemzes a{
+    font-weight: bold;
 }
